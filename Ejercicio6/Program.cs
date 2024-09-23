@@ -1,4 +1,4 @@
-﻿#define FactorialOPintara
+﻿#define FactorialOPintar
 
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,7 @@ namespace Ejercicio6
     {
         static void Main(string[] args)
         {
-            int num = 3;
+            int num = 5;
 #if FactorialOPintar
 
             Factorial(ref num);
@@ -31,9 +31,9 @@ namespace Ejercicio6
                 return false;
             }
 
-            int valorini = factorial - 1;
+          
 
-            for (int i = valorini - 1; valorini >= 1; valorini--)
+            for (int valorini = factorial - 1; valorini >= 1; valorini--)
             {
                 factorial = factorial * valorini;
             }
